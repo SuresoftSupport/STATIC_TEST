@@ -25,7 +25,8 @@ run: $(TARGET)
 
 # Clean
 clean:
-	rm -f *.o *.exe
+	del /f /q *.o *.exe
+#	rm -f *.o *.exe
 
 # Phony targets (so files named 'clean', 'all', etc. won't conflict)
 .PHONY: all clean run
