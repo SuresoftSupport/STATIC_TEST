@@ -1,0 +1,12 @@
+{
+    "schemaVersion": "1.0",
+    "modules": [
+        {
+            "name": "task_manager.exe",
+            "linkFlags": "\"-std=c++11\" \"-Wall\" \"-O2\" \"-o\" \"D:\\pjh\\STATIC_TEST\\task_manager.exe\" \"D:\\pjh\\STATIC_TEST\\main.o\" \"D:\\pjh\\STATIC_TEST\\task.o\" \"D:\\pjh\\STATIC_TEST\\manager.o\"",
+            "linkType": "execute",
+            "sources": [],
+            "dependencies": []
+        }
+    ]
+}
